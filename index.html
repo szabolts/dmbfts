@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.2e6b45a6.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.5aaf8054.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.d032d38a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.f1a1d6f6.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.dec44194.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.7e6319f2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.09d4442f.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.047b175d.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div id="ht"></div>
+		<div id="ht2"></div>
+		<div style="display: contents">  <div class="app svelte-mo94ye"><main class="svelte-mo94ye"><div id="div"><button type="button" class="svelte-1j9mogs" data-svelte-h="svelte-15adbpu">REGISZTRÁCIÓ</button> <button type="button" class="svelte-1j9mogs" data-svelte-h="svelte-1bjxey1">BEJELENTKEZÉS</button></div> </main> </div> 
+			
+			<script>
+				{
+					__sveltekit_i9uuc9 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.d032d38a.js"),
+						import("./_app/immutable/entry/app.dec44194.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
